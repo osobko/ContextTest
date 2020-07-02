@@ -1,0 +1,22 @@
+{	
+	"id": "urn:ngsi-ld:Device:001",
+     	"type": "Device",
+ 	"createdAt": "2020-05-27T18:00:00Z",
+	"modifiedAt": "2020-02-27T18:05:00Z",
+	"location": {
+		"type": "GeoProperty",
+		"value": {
+			"type": "Point",
+			"coordinates": [
+				45.0495285,
+				13.7007801
+			]
+		}
+	},
+	"deviceState": {
+		"type": "Property",
+		"value": "green"
+	},
+	"@context": ["https://schema.lab.fiware.org/ld/context"]
+}
+	
